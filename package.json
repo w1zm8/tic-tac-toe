@@ -1,0 +1,21 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "@types/inquirer": "^6.5.0",
+    "@types/node": "^14.0.5",
+    "clear": "^0.1.0",
+    "inquirer": "^7.1.0",
+    "typescript": "^3.9.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "start": "tsc && node main.js"
+  },
+  "author": "kowalevski",
+  "license": "ISC"
+}
