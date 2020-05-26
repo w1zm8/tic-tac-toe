@@ -14,11 +14,13 @@
     "@types/clear": "^0.1.0",
     "@types/figlet": "^1.2.0",
     "@types/inquirer": "^6.5.0",
-    "@types/node": "^14.0.5"
+    "@types/jest": "^25.2.3",
+    "@types/node": "^14.0.5",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc": "tsc",
+    "test": "jest",
     "start": "tsc && node dist/main.js"
   },
   "author": "kowalevski",
